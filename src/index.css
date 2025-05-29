@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+
+
+
+
+.bg-custom-gradient {
+  background: radial-gradient(223% 105.53% at 6.05% 199.17%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0) 100%),
+              radial-gradient(31.68% 130.91% at 100% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+              radial-gradient(43.14% 139.47% at 0% 136.21%, rgba(227, 235, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%),
+              linear-gradient(170deg, rgb(64, 22, 160) 7.99%, rgb(63, 89, 228) 93.36%);
+               
+}
+
+.bg-custom-gradient:hover {
+  background: linear-gradient(90deg, #667DEA 0%, #5A6FE2 100%);
+
+}
+
+body{
+  background-color: #1E212A;
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+
+.glow-hover {
+  transition: all .3s ease;
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 18px 8px rgba(102, 125, 234, 0.6);
+}
+
+.try-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.try-scrollbar::-webkit-scrollbar-track {
+  background: #374151; /* dark gray (gray-700) */
+}
+
+.try-scrollbar::-webkit-scrollbar-thumb {
+  background: #d1d5db; /* light gray (gray-300) */
+  border-radius: 6px;
+  border: 2px solid #374151; /* same as track, for nice padding effect */
+}
+
+
+.bgm{
+  background: radial-gradient(223% 105.53% at 6.05% 199.17%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(31.68% 130.91% at 100% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(43.14% 139.47% at 0% 136.21%, rgba(227, 235, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(170deg, rgb(64, 22, 160) 7.99%, rgb(63, 89, 228) 93.36%);
+}
+
+.bmw:hover {
+  background: linear-gradient(90deg, #667DEA 0%, #5A6FE2 100%);
+
+}
+
+
+
+/* default (mobile) */
+.bg-facets {
+  background-image: url('/facets.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 80%;
+}
+
+/* desktop and up */
+@media (min-width: 768px) {
+  .bg-facets {
+    background-size: 30%;
+  }
+}
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  
+  }
+}
+
+.animate-marquee {
+ 
+  animation: marquee 10s linear infinite;
+}
+
+
+
+/* index.css */
+/* styles.css or global.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
