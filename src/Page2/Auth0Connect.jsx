@@ -3,7 +3,7 @@ import { Mail, Users } from "lucide-react"
 
 export default function Auth0Connect() {
   return (
-    <div className="min-h-screen bg-[#1E212A] text-white p-4 sm:p-6 md:px-12">
+    <div className="min-h-screen bg-[#1E212A] text-white p-4 sm:p-6 md:p-12">
       <div className="max-w-6xl mx-auto py-10 md:py-20 border-t border-gray-500">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">
           Connect with Auth0
@@ -20,7 +20,7 @@ export default function Auth0Connect() {
                 <img
                   src="https://developer.auth0.com/_next/image?url=https%3A%2F%2Fcdn.auth0.com%2Fwebsite%2Fdevelope-center%2Fassets%2Fboo-banner.png&w=3840&q=75"
                   alt="DevDay event"
-                  className="w-full md:w-[250px] rounded-md bg-purple-800"
+                  className="w-full md:w-[250px] rounded-md bg-purple-800    "
                 />
 
                 <h3 className="text-sm md:text-md font-bold mb-1 mt-2 md:mt-3">Best of DevDay</h3>
