@@ -113,7 +113,7 @@ const IntegrationSection = () => {
           </p>
 
           {/* Icons Marquee */}
-          <div className="relative group overflow-hidden whitespace-nowrap h-24 mx-auto w-[85%] ">
+          {/* <div className="relative group overflow-hidden whitespace-nowrap h-24 mx-auto w-[85%] ">
             <div className="flex gap-18 animate-marquee">
               <img src="/icons8-android-logo-50.png" alt="android" className="h-13  filter invert brightness-100" />
               <img src="/icons8-angularjs-50.png" alt="angularjs" className="h-13 filter invert brightness-100" />
@@ -126,13 +126,13 @@ const IntegrationSection = () => {
               <img src="/icons8-css-logo-50.png" alt="css" className="h-13  filter invert brightness-100" />
               <img src="/icons8-ios-logo-50.png" alt="ios" className="h-13  filter invert brightness-100" />
 
-            </div>
+            </div> */}
 
             {/* Hover Button */}
-            <button className="absolute top-[35%] left-1/2 -translate-x-1/2 hover:cursor-pointer -translate-y-1/2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-3 rounded-md font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
+            {/* <button className="absolute top-[35%] left-1/2 -translate-x-1/2 hover:cursor-pointer -translate-y-1/2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-3 rounded-md font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
               Learn More
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

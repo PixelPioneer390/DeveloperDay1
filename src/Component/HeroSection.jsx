@@ -68,7 +68,7 @@ const HeroSection = () => {
       <Cards/>
       <IntegrationSection/>
       <Video/>
-      <Marquee/>
+      {/* <Marquee/> */}
       <IdentityDashboard/>
       
       <Resources/>

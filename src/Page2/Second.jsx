@@ -7,7 +7,7 @@ const Second = () => {
     <div className='bg-[#1E212A]'>
     
       <Head/>
-    {/* <Footer/> */}
+    <Footer/>
     </div>
   )
 }
