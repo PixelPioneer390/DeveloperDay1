@@ -6,11 +6,12 @@ import { Link } from 'react-router-dom'
 const Samplehead = () => {
   return (
     <div>
-      <nav className="flex justify-between xl:w-[70%] mx-auto xl:rounded-b-3xl xl:px-22 px-3 bg-gray-800 text-white py-3 border-b border-gray-600 relative z-20">
+      <nav className="flex justify-between xl:w-[85%] mx-auto xl:rounded-b-3xl xl:px-22 px-3 bg-gray-800 text-white py-3 border-b border-gray-600 relative z-20">
         <div>
           <h1 className="md:text-3xl text-2xl font-semibold">Code Smaple</h1>
         </div>
-        <div className="md:flex gap-7 hidden">
+        <div className="md:flex gap-5 hidden">
+          
           <ul className="flex gap-5 items-center">
             <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
               <span className="flex items-center gap-1 ">
@@ -283,9 +284,11 @@ const Samplehead = () => {
                          </div>
                        </li>
           </ul>
+        
           <button className="bg-transparent px-5 font-semibold border-2 border-[#BDC4CF] rounded-md">Log in</button>
           <button className="bg-[#635DFF] px-5 font-semibold rounded-md">Sign up</button>
         </div>
+        
         <div className="md:hidden">
           <GiHamburgerMenu size={30} />
         </div>
