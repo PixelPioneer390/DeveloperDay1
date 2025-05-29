@@ -1,5 +1,11 @@
 import { Play } from "lucide-react"
-import AudioPopup from "./Audiopopup"
+import AudioPopup from "./Songs/Regerts"
+import JholAnjum from "./Songs/JholAnjum"
+import Buraraha from "./Songs/Buraraha"
+import SharnxBohemia from "./Songs/SharnxBohemia"
+import JANI from "./Songs/Jani"
+import Lejawab from "./Songs/Lejawab"
+import Shikwa from "./Songs/Shikwa"
 
 export default function PodcastPage() {
   return (
@@ -31,9 +37,7 @@ export default function PodcastPage() {
                 <p className="text-sm text-gray-600 mb-2">41:35 | 08.31.2022</p>
               </div>
               <div className="md:ml-4 ">
-                <button className="border-2 border-red-600 text-red-600 hover:cursor-pointer px-4 py-2 rounded flex items-center text-sm font-semibold">
-                  PLAY NOW <Play className="ml-2 h-4 w-4 font-bold" />
-                </button>
+               <Shikwa/>
               </div>
             </div>
 
@@ -56,9 +60,7 @@ export default function PodcastPage() {
                 <p className="text-sm text-gray-600 mb-2">56:46 | 07.14.2022</p>
               </div>
               <div className="md:ml-4">
-                <button className="border-2 border-red-600 text-red-600 hover:cursor-pointer font-semibold px-4 py-2 rounded  flex items-center text-sm">
-                  PLAY NOW <Play className="ml-2 h-4 w-4" />
-                </button>
+                <Lejawab/>
               </div>
             </div>
 
@@ -81,9 +83,7 @@ export default function PodcastPage() {
                 <p className="text-sm text-gray-600 mb-2">41:26 | 06.14.2022</p>
               </div>
               <div className="md:ml-4">
-                <button className="border-2 border-red-600 text-red-600 hover:cursor-pointer font-semibold px-4 py-2 rounded flex items-center text-sm">
-                  PLAY NOW <Play className="ml-2 h-4 w-4" />
-                </button>
+                <JANI/>
               </div>
             </div>
           </div>
@@ -110,9 +110,7 @@ export default function PodcastPage() {
                 <p className="text-sm text-gray-600 mb-2">34:15 | 01.10.2022</p>
               </div>
               <div className="md:ml-4">
-                <button className="border-2 border-red-600 text-red-600 hover:cursor-pointer font-semibold px-4 py-2 rounded flex items-center text-sm">
-                  PLAY NOW <Play className="ml-2 h-4 w-4" />
-                </button>
+                <SharnxBohemia/>
               </div>
             </div>
 
@@ -135,7 +133,7 @@ export default function PodcastPage() {
                 <p className="text-sm text-gray-600 mb-2">43:24 | 12.20.2021</p>
               </div>
               <div className="md:ml-4 ">
-                <AudioPopup />
+                <Buraraha />
               </div>
             </div>
 
@@ -185,9 +183,7 @@ export default function PodcastPage() {
                 <p className="text-sm text-gray-600 mb-2">27:25 | 11.10.2021</p>
               </div>
               <div className="md:ml-4">
-                <button className="border-2 border-red-600 text-red-600 font-semibold hover:cursor-pointer px-4 py-2 rounded flex items-center text-sm">
-                  PLAY NOW <Play className="ml-2 h-4 w-4" />
-                </button>
+                <JholAnjum/>
               </div>
             </div>
           </div>
