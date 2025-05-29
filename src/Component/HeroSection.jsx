@@ -27,7 +27,7 @@ const HeroSection = () => {
       ></div>
 
       {/* Left Content */}
-      {/* <div className="w-full md:max-w-lg lg:max-w-xl xl:max-w-2xl relative z-10 mb-12 md:mb-0">
+      <div className="w-full md:max-w-lg lg:max-w-xl xl:max-w-2xl relative z-10 mb-12 md:mb-0">
         <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight ">
           Secure access <br className="md:block" />
           <span className="flex items-center gap-3">
@@ -37,10 +37,10 @@ const HeroSection = () => {
             But not <SwipeSpan phrases={badActorsPhrases} className="border-blue-400 " />
             </span>
           </p>
-        </h1> */}
+        </h1>
 
         {/* Email Input + Button */}
-        {/* <div className="mt-6 md:mt-8 lg:mt-10 flex flex-col sm:flex-row w-[70%] md:bg-black/80 rounded-xl md:rounded-2xl py-3 md:py-4 md:px-2 px-1 overflow-hidden md:shadow-lg">
+        <div className="mt-6 md:mt-8 lg:mt-10 flex flex-col sm:flex-row w-[70%] md:bg-black/80 rounded-xl md:rounded-2xl py-3 md:py-4 md:px-2 px-1 overflow-hidden md:shadow-lg">
           <input
             type="email"
             placeholder="Your work email"
@@ -51,7 +51,7 @@ const HeroSection = () => {
             Get started
           </button>
         </div>
-      </div> */}
+      </div>
 
       {/* Right Image */}
       <div className="xl:w-[320px]  md:w-[250px] w-[140px] absolute right-50 md:right-25 lg:right-30 xl:right-50 2xl:top-7 -bottom-25 z-10 overflow-hidden">
