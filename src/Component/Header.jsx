@@ -76,8 +76,8 @@ const Header = () => {
           {/* Navigation Items */}
           <ul className="lg:flex gap-3 xl:gap-6 items-center hidden">
             {/* Developers */}
-            <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center gap-1 font-semibold pb-[15px]">
+            <li className="relative group cursor-pointer">
+              <span className="flex items-center hover:text-purple-500 gap-1 font-semibold pb-[15px]">
                 Developers <RiArrowDropDownLine size={30} />
               </span>
               <div className="absolute -left-20 top-10 mt-3 hidden group-hover:flex bg-[#1a1a1a] min-w-[900px] z-50 rounded-xl shadow-lg gap-6">
@@ -87,20 +87,20 @@ const Header = () => {
                     DEVELOPERS
                   </h3>
                   <ul className="space-y-4 text-sm flex flex-col">
-                    <Link to="/developer" className="text-white font-semibold hover:text-white cursor-pointer">
+                    <Link to="/developer" className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       Developer Center
                     </Link>
-                    <Link to="/sample" className="text-white font-semibold hover:text-white cursor-pointer">
+                    <Link to="/sample" className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       CODE SAMPLES
                     </Link>
                     
-                    <Link to="/podcast" className="text-white font-semibold hover:text-white cursor-pointer">
+                    <Link to="/podcast" className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       Identity Unlocked-Podcasts
                     </Link>
-                    <Link to="/sample" className="text-white font-semibold hover:text-white cursor-pointer">
+                    <Link to="/sample" className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       Guides
                     </Link>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       Zero Index Newsletter
                     </li>
                   </ul>
@@ -112,16 +112,16 @@ const Header = () => {
                     DEVELOPER TOOLS
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       OIDC Connect Playground
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       SAML Tool
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-400cursor-pointer">
                       JWT.io
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       Webauthn.me
                     </li>
                   </ul>
@@ -133,10 +133,10 @@ const Header = () => {
                     GET INVOLVED
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       Events
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                       Auth0 Research Program
                     </li>
                   </ul>
@@ -145,8 +145,8 @@ const Header = () => {
             </li>
 
             {/* Documentation */}
-            <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center font-semibold gap-1 pb-[15px]">
+            <li className="relative group cursor-pointer ">
+              <span className="flex items-center hover:text-purple-500 font-semibold gap-1 pb-[15px]">
                 Documentation <RiArrowDropDownLine size={30} />
               </span>
 
@@ -159,20 +159,20 @@ const Header = () => {
                     </h3>
                     <ul className="space-y-4 text-sm">
                       
-                        <li className="text-white font-semibold hover:text-white cursor-pointer">
+                        <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                           Auth0 Docs
                         </li>
                      
-                      <li className="text-white font-semibold hover:text-white cursor-pointer">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                         Articles
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                         Quickstarts
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                         APIs
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer">
                         SDK Libraries
                       </li>
                     </ul>
@@ -186,22 +186,22 @@ const Header = () => {
                       SUPPORT CENTER
                     </h3>
                     <ul className="space-y-4 text-sm">
-                      <li className="text-white font-semibold hover:text-white cursor-pointer whitespace-nowrap">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer whitespace-nowrap">
                         Community
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer whitespace-nowrap">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer whitespace-nowrap">
                         Support
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer whitespace-nowrap">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer whitespace-nowrap">
                         Help
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer whitespace-nowrap">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer whitespace-nowrap">
                         FAQs
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer whitespace-nowrap">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer whitespace-nowrap">
                         Auth0 Marketplace
                       </li>
-                      <li className="text-white font-semibold hover:text-white cursor-pointer whitespace-nowrap">
+                      <li className="text-white font-semibold hover:text-purple-400 cursor-pointer whitespace-nowrap">
                         Resources
                       </li>
                     </ul>
@@ -245,37 +245,37 @@ const Header = () => {
             </li>
 
             {/* Company */}
-            <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center gap-1 font-semibold pb-[15px]">
+            <li className="relative group cursor-pointer ">
+              <span className="flex items-center hover:text-purple-500 gap-1 font-semibold pb-[15px]">
                 Product <RiArrowDropDownLine size={30} />
               </span>
 
-              <div className="absolute -left-20 top-full mt-3 hidden group-hover:flex bg-[#1a1a1a] min-w-[900px] z-50 rounded-xl shadow-lg gap-8 ">
+              <div className="absolute -left-20 top-8 mt-3 hidden group-hover:flex bg-[#1a1a1a] min-w-[900px] z-50 rounded-xl shadow-lg gap-8 ">
                 {/* Column 1: Platform */}
                 <div className="w-1/3 px-6 border-r border-gray-800 pt-10 pb-5">
                   <h3 className="text-gray-400 font-bold uppercase text-sm tracking-wider mb-6">
                     Platform
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Access Management
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Extensibility
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Security
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       User Management
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Authentication
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Fine-Grained Authorization
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Auth for GenAI
                     </li>
                   </ul>
@@ -292,25 +292,25 @@ const Header = () => {
                     Features
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Universal Login
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Single Sign On
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Multifactor Authentication
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Actions
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Machine to Machine
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Passwordless
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Breached Passwords
                     </li>
                   </ul>
@@ -351,27 +351,27 @@ const Header = () => {
               </div>
             </li>
 
-            <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center gap-1 font-semibold pb-[15px]">
+            <li className="relative group cursor-pointer ">
+              <span className="flex items-center gap-1 hover:text-purple-500 font-semibold pb-[15px]">
                 Solutions <RiArrowDropDownLine size={30} />
               </span>
-              <div className="absolute -left-20 top-full mt-3 hidden group-hover:flex bg-[#1a1a1a] min-w-[900px] z-50 rounded-xl shadow-lg gap-6">
+              <div className="absolute -left-50 top-full mt-3 hidden group-hover:flex bg-[#1a1a1a] min-w-[900px] z-50 rounded-xl shadow-lg gap-6">
                 {/* Column 1 */}
                 <div className="px-5 py-10 pr-10 w-[30%] border-r border-gray-800">
-                  <h3 className="text-gray-400 font-bold uppercase text-md tracking-wider mb-3">
+                  <h3 className="text-gray-400  font-bold uppercase text-md tracking-wider mb-3">
                     INDUSTRIES
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Retail
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Finacial Services
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Nonprofit & Charties
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Startups
                     </li>
                   </ul>
@@ -380,10 +380,10 @@ const Header = () => {
                     YOUR GOALS
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Enterprise-Grade identity at Grade Scale
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       &lt;/secure smarter&gt;
                     </li>
                   </ul>
@@ -395,10 +395,10 @@ const Header = () => {
                     USE CASES
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Consumer Applications
                     </li>
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Case Studies
                     </li>
                   </ul>
@@ -407,7 +407,7 @@ const Header = () => {
                     CASE STUDIES
                   </h3>
                   <ul className="space-y-4 text-sm">
-                    <li className="text-white font-semibold hover:text-white cursor-pointer">
+                    <li className="text-white font-semibold hover:text-purple-500 cursor-pointer">
                       Read our customers stories
                     </li>
                   </ul>
@@ -436,10 +436,10 @@ const Header = () => {
             </li>
 
             {/* Static Links */}
-            <li className="cursor-pointer font-semibold hover:border-b-2 border-purple-500 pb-[15px]">
+            <li className="cursor-pointer font-semibold hover:text-purple-500 pb-[15px]">
               Blog
             </li>
-            <li className="cursor-pointer font-semibold hover:border-b-2 border-purple-500 pb-[15px]">
+            <li className="cursor-pointer font-semibold hover:text-purple-500 pb-[15px]">
               Price
             </li>
           </ul>
