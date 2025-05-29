@@ -3,7 +3,7 @@ import React from 'react';
 const Cards = () => {
   return (
     <div
-  className="2xl:w-[75%] w-full mx-auto xl:py-20 py-5 px-2 md:px-4"
+  className="2xl:w-[85%] w-full mx-auto xl:py-20 py-5 px-2 md:px-4"
   style={{
     borderBottom: "4px solid", // you define it here instead of Tailwind class
     borderImageSlice: 1,

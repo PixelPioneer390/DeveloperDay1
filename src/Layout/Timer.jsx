@@ -43,7 +43,7 @@ export default function DevDayLanding() {
   }, []);
 
   return (
-    <div className="2xl:my-15  border-b-[0.2rem] text-white flex flex-col items-center justify-center p-8 2xl:w-[75%] mx-auto"
+    <div className="2xl:my-15  border-b-[0.2rem] text-white flex flex-col items-center justify-center p-8 2xl:w-[85%] mx-auto"
     style={{
           borderImageSlice: 1,
           borderImageSource:

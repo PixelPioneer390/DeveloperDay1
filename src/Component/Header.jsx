@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-[#242424] text-white">
       {/* Top Bar */}
       <div
-        className="border-b-[0.2rem] md:py-[5px] py-3 2xl:px-[64px] px-5"
+        className="border-b-[0.2rem] md:py-[5px] py-3 2xl:px-[30px] px-5"
         style={{
           borderImageSlice: 1,
           borderImageSource:
@@ -20,7 +20,7 @@ const Header = () => {
           borderStyle: "solid",
         }}
       >
-        <div className="2xl:w-[75%]  mx-auto flex justify-between items-center text-sm">
+        <div className="2xl:w-[85%]  mx-auto flex justify-between items-center text-sm">
           <div>
             <p className="inline text-md">
               Developer Day is coming to your screen
@@ -65,8 +65,8 @@ const Header = () => {
       </div>
 
       {/* Navbar */}
-      <nav className="md:bg-[#111111]   text-white 2xl:px-[64px] px-5  py-3">
-        <div className="2xl:w-[75%] w-full  mx-auto flex justify-between items-center">
+      <nav className="md:bg-[#111111]   text-white 2xl:px-[30px] px-5  py-3">
+        <div className="2xl:w-[85%] w-full  mx-auto flex justify-between items-center">
           <Link to="/">
           <h1 className="xl:text-3xl text-2xl font-bold md:mb-3 hover:cursor-pointer">
             auth0
