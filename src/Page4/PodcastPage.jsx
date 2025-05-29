@@ -3,7 +3,7 @@ import AudioPopup from "./Audiopopup"
 
 export default function PodcastPage() {
   return (
-    <div className="xl:max-w-[60%] mx-auto px-4 py-8 font-sans">
+    <div className="xl:max-w-[80%] mx-auto px-4 py-8 font-sans">
       <div className="flex flex-col md:flex-row gap-8">
         {/* RECENT EPISODES SECTION */}
         <div className="w-full">

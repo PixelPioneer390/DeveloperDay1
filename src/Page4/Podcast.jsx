@@ -8,9 +8,9 @@ export default function Podcast() {
     <div className="min-h-screen flex flex-col bg-white">
       {/* Header */}
       <header className="bg-white py-6 px-4 md:px-12">
-        <div className="max-w-6xl mx-auto flex justify-around items-center">
+        <div className="max-w-7xl mx-auto flex justify-around items-center">
           <div className="flex items-center">
-            <img src="podcast-logo.png" alt="" className="w-135"/>
+            <img src="podcast-logo.png" alt="" className="w-85"/>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#" className="text-gray-600 hover:text-gray-900 font-medium uppercase text-lg">
@@ -28,20 +28,20 @@ export default function Podcast() {
 
       {/* Main Content */}
       <main className="flex-grow ">
-        <div className="relative overflow-hidden xl:h-[58vh]">
+        <div className="relative overflow-hidden xl:h-[80vh]">
           {/* Background Gradient */}
-          <div className="absolute  inset-0 bg-gradient-to-r from-red-900 to-red-800 -left-50  md:left-0 md:-top-180"
+          <div className="absolute  inset-0 bg-gradient-to-r from-red-900 to-red-800 -left-50  md:left-0 md:-top-140"
           style={{backgroundImage:"url(podcast.png)",backgroundSize:"cover"}}
           >
           </div>
-             <div className="absolute xl:top-12 xl:right-90 right-10 bottom-5 z-100">
-              <img src="/podcast.png" alt="" className="xl:w-100 w-60"/>
+             <div className="absolute xl:top-20 xl:right-70 right-10 bottom-5 z-100">
+              <img src="/podcast.png" alt="" className="xl:w-90 w-60"/>
               </div> 
 
           {/* Curved Lines Overlay */}
           <div className="absolute inset-0 bg-[#2a2e35]/35"></div>
 
-          <div className="max-w-6xl mx-auto px-4 md:px-12 py-16 md:py-24 relative z-10">
+          <div className="max-w-7xl mx-auto px-4 md:px-12 py-16 md:py-24 relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="text-white space-y-6">
                 <div className="uppercase text-sm font-semibold tracking-wider">Episode 4 | 47:19 min</div>
