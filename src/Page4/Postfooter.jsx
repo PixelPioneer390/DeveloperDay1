@@ -8,46 +8,63 @@ export default function Podfooter() {
         <div className="text-white text-sm mb-4 md:mb-0">© 2025 AuthO</div>
 
         <div className="flex flex-col items-center">
-          <h3 className="text-white font-bold text-sm tracking-wider mb-3">OTHER PLACES YOU CAN FIND US</h3>
+          <h3 className="text-white font-bold text-sm tracking-wider mb-3">
+            OTHER PLACES YOU CAN FIND US
+          </h3>
 
           <div className="flex flex-wrap justify-center gap-3">
-            <a href="#" className="bg-white rounded-md flex flex-col items-center py-2 w-40">
+            <a
+              href="#"
+              className="bg-white rounded-md flex flex-col items-center py-2 w-40"
+            >
               <div className="flex items-center gap-2">
-<PiApplePodcastsLogoFill className="text-black" />
-                
-               <div>
-              <p className="text-[10px] text-gray-600 uppercase">LISTEN ON</p>
-                <h3 className="font-semibold">Apple Podcasts</h3>
-              </div>
+                <PiApplePodcastsLogoFill className="text-black" />
+
+                <div>
+                  <p className="text-[10px] text-gray-600 uppercase">
+                    LISTEN ON
+                  </p>
+                  <h3 className="font-semibold">Apple Podcasts</h3>
+                </div>
               </div>
             </a>
 
-            <a href="#" className="bg-white rounded-md flex flex-col items-center  py-2 w-40">
+            <a
+              href="#"
+              className="bg-white rounded-md flex flex-col items-center  py-2 w-40"
+            >
               <div className="flex items-center gap-2">
                 <div>
-                <PiGooglePodcastsLogoBold />
+                  <PiGooglePodcastsLogoBold />
                 </div>
-                  <div>
-              <p className="text-[10px] text-gray-600 uppercase">LISTEN ON</p>
-                <h3 className="font-semibold">Google Podcasts</h3>
+                <div>
+                  <p className="text-[10px] text-gray-600 uppercase">
+                    LISTEN ON
+                  </p>
+                  <h3 className="font-semibold">Google Podcasts</h3>
                 </div>
               </div>
             </a>
 
-            <a href="#" className="bg-white rounded-md flex flex-col items-center py-2 w-40 md:w-30">
+            <a
+              href="#"
+              className="bg-white rounded-md flex flex-col items-center py-2 w-40 md:w-30"
+            >
               <div className="flex items-center gap-2">
                 <FaSpotify />
                 <div className="flex flex-col">
-              <span className="text-[10px] text-gray-600 uppercase">LISTEN ON</span>
-                <span className="font-semibold">Spotify</span>
+                  <span className="text-[10px] text-gray-600 uppercase">
+                    LISTEN ON
+                  </span>
+                  <span className="font-semibold">Spotify</span>
                 </div>
               </div>
             </a>
           </div>
         </div>
 
-        <div className="hidden md:block">{/* Empty div for layout balance */}</div>
+        <div className="hidden md:block"></div>
       </div>
     </footer>
-  )
+  );
 }
