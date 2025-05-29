@@ -16,7 +16,7 @@ const HeroSection = () => {
 
   return (
     <>
-    <div className="w-full  2xl:w-[85%] h-[75vh]  2xl:h-[55vh]  mx-auto relative bg-[linear-gradient(to_top_right,_#3F2BB5,_#251844,_#111111,_#111111)] flex flex-col md:flex-row items-center justify-between px-4 md:px-8 lg:px-15 pb-10 md:pb-20 lg:pb-30 md:pt-10 py-5 rounded-b-2xl lg:rounded-b-3xl overflow-hidden text-white font-sans">
+    <div className="w-full  2xl:w-[85%] h-[75vh]  2xl:h-[75vh]  mx-auto relative bg-[linear-gradient(to_top_right,_#3F2BB5,_#251844,_#111111,_#111111)] flex flex-col md:flex-row items-center justify-between px-4 md:px-8 lg:px-15 pb-10 md:pb-20 lg:pb-30 md:pt-10 py-5 rounded-b-2xl lg:rounded-b-3xl overflow-hidden text-white font-sans">
       {/* Background SVG */}
       <div
         className="absolute inset-0 bg-no-repeat bg-right-bottom pointer-events-none  opacity-80 md:opacity-100"
@@ -54,7 +54,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right Image */}
-      <div className="xl:w-[290px]  md:w-[250px] w-[140px] absolute right-50 md:right-25 lg:right-30 xl:right-55 2xl:top-38 -bottom-25 z-10 overflow-hidden">
+      <div className="xl:w-[290px]  md:w-[250px] w-[140px] absolute right-50 md:right-25 lg:right-30 xl:right-55 2xl:top-42 -bottom-25 z-10 overflow-hidden">
         <img
           src="login-box.svg"
           alt="Login UI"

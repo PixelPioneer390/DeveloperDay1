@@ -77,7 +77,7 @@ const Header = () => {
           <ul className="lg:flex gap-3 xl:gap-6 items-center hidden">
             {/* Developers */}
             <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center gap-1 font-bold pb-[15px]">
+              <span className="flex items-center gap-1 font-semibold pb-[15px]">
                 Developers <RiArrowDropDownLine size={30} />
               </span>
               <div className="absolute -left-20 top-10 mt-3 hidden group-hover:flex bg-[#1a1a1a] min-w-[900px] z-50 rounded-xl shadow-lg gap-6">
@@ -146,7 +146,7 @@ const Header = () => {
 
             {/* Documentation */}
             <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center font-bold gap-1 pb-[15px]">
+              <span className="flex items-center font-semibold gap-1 pb-[15px]">
                 Documentation <RiArrowDropDownLine size={30} />
               </span>
 
@@ -246,7 +246,7 @@ const Header = () => {
 
             {/* Company */}
             <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center gap-1 font-bold pb-[15px]">
+              <span className="flex items-center gap-1 font-semibold pb-[15px]">
                 Product <RiArrowDropDownLine size={30} />
               </span>
 
@@ -352,7 +352,7 @@ const Header = () => {
             </li>
 
             <li className="relative group cursor-pointer hover:border-b-2 border-purple-500">
-              <span className="flex items-center gap-1 font-bold pb-[15px]">
+              <span className="flex items-center gap-1 font-semibold pb-[15px]">
                 Solutions <RiArrowDropDownLine size={30} />
               </span>
               <div className="absolute -left-20 top-full mt-3 hidden group-hover:flex bg-[#1a1a1a] min-w-[900px] z-50 rounded-xl shadow-lg gap-6">
@@ -436,10 +436,10 @@ const Header = () => {
             </li>
 
             {/* Static Links */}
-            <li className="cursor-pointer font-bold hover:border-b-2 border-purple-500 pb-[15px]">
+            <li className="cursor-pointer font-semibold hover:border-b-2 border-purple-500 pb-[15px]">
               Blog
             </li>
-            <li className="cursor-pointer font-bold hover:border-b-2 border-purple-500 pb-[15px]">
+            <li className="cursor-pointer font-semibold hover:border-b-2 border-purple-500 pb-[15px]">
               Price
             </li>
           </ul>
