@@ -7,6 +7,7 @@ import Marquee from "../Layout/Marquee"
 import Resources from "../Layout/Resources"
 import IdentityDashboard from "../Layout/identify2"
 import Video from "../Layout/Video"
+import { Typewriter } from 'react-simple-typewriter';
 
 const HeroSection = () => {
   const customersPhrases = ["customers", "everyone", "medical patients", "developers", "online shoppers"]
@@ -68,7 +69,7 @@ const HeroSection = () => {
       <Cards/>
       <IntegrationSection/>
       <Video/>
-      {/* <Marquee/> */}
+      <Marquee/>
       <IdentityDashboard/>
       
       <Resources/>

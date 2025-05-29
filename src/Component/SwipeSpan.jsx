@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
+
 const SwipeSpan = ({ phrases, className }) => {
   const [index, setIndex] = useState(0);
   const [height, setHeight] = useState(0);
