@@ -143,7 +143,7 @@ export default function MusicPlayer() {
 
             <div className="flex flex-col items-center">
               {/* Album Art */}
-              <div className="rounded-2xl bg-gradient-to-br from-blue-300 to-blue-500 p-6 w-48 h-48 flex items-center justify-center mb-6">
+              <div className="rounded-2xl bg-gradient-to-br from-blue-300 to-blue-500  w-48 h-48 flex items-center justify-center mb-6">
                <img src="/anjumbhai.jpg" alt="" />
               </div>
 
