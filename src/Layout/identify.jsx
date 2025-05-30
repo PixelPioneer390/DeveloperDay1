@@ -196,7 +196,7 @@ const IdentityDashboard = () => {
 
   return (
     <div className="min-h-screen text-white font-sans">
-      <div className="md:max-w-7xl mx-auto md:px-8 px-4 py-12 md:rounded-3xl overflow-hidden relative">
+      <div className="md:max-w-6xl mx-auto md:px-8 px-4 py-12 md:rounded-3xl overflow-hidden relative">
         {/* Background gradient */}
         <div
           className="absolute inset-0 opacity-80"
