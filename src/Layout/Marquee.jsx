@@ -3,7 +3,7 @@ import React from 'react'
 const Marquee = () => {
   return (
     <div>
-       <div className="relative group overflow-hidden whitespace-nowrap h-24 mx-auto lg:w-6xl xl:w-7xl xl:my-15">
+       <div className="relative group overflow-hidden whitespace-nowrap h-24 mx-auto lg:w-6xl 2xl:w-7xl xl:my-15">
             <div className="flex gap-18 animate-marquee">
               <img src="/mazda.svg" alt="android" className="w-50  " />
               <img src="/pfizer.svg" alt="angularjs" className="w-50  " />
