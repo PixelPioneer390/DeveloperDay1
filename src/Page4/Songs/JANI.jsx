@@ -134,7 +134,7 @@ export default function Jani() {
 
       {/* Music Player Popup */}
       {showPlayer && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
           <div ref={playerRef} className="bg-black rounded-3xl p-8 w-full max-w-sm mx-4 relative">
             {/* Close Button */}
             <button onClick={handleClose} className="absolute top-4 right-4 text-gray-400 hover:text-white">
