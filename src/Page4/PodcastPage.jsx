@@ -3,7 +3,7 @@ import AudioPopup from "./Songs/Regerts"
 import JholAnjum from "./Songs/JholAnjum"
 import Buraraha from "./Songs/Buraraha"
 import SharnxBohemia from "./Songs/SharnxBohemia"
-import JANI from "./Songs/Jani"
+
 import Lejawab from "./Songs/Lejawab"
 import Shikwa from "./Songs/Shikwa"
 import Jani from "./Songs/Jani"
