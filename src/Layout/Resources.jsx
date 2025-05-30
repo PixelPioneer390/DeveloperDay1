@@ -3,7 +3,7 @@ import React from "react";
 const Resources = () => {
   return (
     <section className=" text-white md:px-6 px-2 py-5 ">
-      <div className="xl:w-7xl mx-auto ">
+      <div className="xl:w-6xl mx-auto ">
         {/* Heading */}
         <h2 className="uppercase text-md text-gray-400 tracking-widest mb-3 ">
           Resources
