@@ -130,7 +130,7 @@ export default function Jani() {
       </button>
 
       {/* Audio Element */}
-      <audio ref={audioRef} src="/JANI.mp3" />
+      {/* <audio ref={audioRef} src="/JANI.mp3" /> */}
 
       {/* Music Player Popup */}
       {showPlayer && (
