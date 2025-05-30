@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react"
 import { Pause, Play, SkipBack, SkipForward, Rewind, FastForward, X } from "lucide-react"
 
-export default function JANI() {
+export default function Jani() {
   const [showPlayer, setShowPlayer] = useState(false)
   const [isPlaying, setIsPlaying] = useState(false)
   const [currentTime, setCurrentTime] = useState(0)
