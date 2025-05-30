@@ -6,7 +6,7 @@ import SharnxBohemia from "./Songs/SharnxBohemia"
 
 import Lejawab from "./Songs/Lejawab"
 import Shikwa from "./Songs/Shikwa"
-import Jani from "./Songs/Jani"
+// import Jani from "./Songs/Jani"
 
 export default function PodcastPage() {
   return (
@@ -84,7 +84,7 @@ export default function PodcastPage() {
                 <p className="text-sm text-gray-600 mb-2">41:26 | 06.14.2022</p>
               </div>
               <div className="md:ml-4">
-                <Jani/>
+                {/* <Jani/> */}
               </div>
             </div>
           </div>
