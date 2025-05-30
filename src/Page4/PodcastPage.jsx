@@ -6,7 +6,7 @@ import SharnxBohemia from "./Songs/SharnxBohemia"
 
 import Lejawab from "./Songs/Lejawab"
 import Shikwa from "./Songs/Shikwa"
-import Jani from "./Songs/Jani"
+import Jani from "./Songs/Kabi"
 
 
 export default function PodcastPage() {
