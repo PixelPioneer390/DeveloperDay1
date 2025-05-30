@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react"
 import { Pause, Play, SkipBack, SkipForward, Rewind, FastForward, X } from "lucide-react"
 
-export default function Jani() {
+export default function MusicPlayer() {
   const [showPlayer, setShowPlayer] = useState(false)
   const [isPlaying, setIsPlaying] = useState(false)
   const [currentTime, setCurrentTime] = useState(0)
@@ -130,11 +130,11 @@ export default function Jani() {
       </button>
 
       {/* Audio Element */}
-      <audio ref={audioRef} src="/JANI.mp3" />
+      <audio ref={audioRef} src="/Anjum.mp3" />
 
       {/* Music Player Popup */}
       {showPlayer && (
-        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
           <div ref={playerRef} className="bg-black rounded-3xl p-8 w-full max-w-sm mx-4 relative">
             {/* Close Button */}
             <button onClick={handleClose} className="absolute top-4 right-4 text-gray-400 hover:text-white">
@@ -143,13 +143,13 @@ export default function Jani() {
 
             <div className="flex flex-col items-center">
               {/* Album Art */}
-              <div className="rounded-2xl   w-48 h-48 flex items-center justify-center mb-6">
-               <img src="/kabini.jpg" alt="" />
+              <div className="rounded-2xl bg-gradient-to-br from-blue-300 to-blue-500  w-48 h-48 flex items-center justify-center mb-6">
+               <img src="/anjumbhai.jpg" alt="" />
               </div>
 
               {/* Song Info */}
-              <h2 className="text-white text-xl font-medium">Kabhi Nahi</h2>
-              <p className="text-gray-400 text-sm mb-6">JANI</p>
+              <h2 className="text-white text-xl font-medium">Anjum</h2>
+              <p className="text-gray-400 text-sm mb-6">Sample Audio</p>
 
               {/* Waveform Visualization */}
               <div className="w-full h-10 mb-4 flex items-center justify-between">
