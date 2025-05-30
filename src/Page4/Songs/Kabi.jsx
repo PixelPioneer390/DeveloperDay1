@@ -130,7 +130,7 @@ export default function MusicPlayer() {
       </button>
 
       {/* Audio Element */}
-      <audio ref={audioRef} src="/JANI.mp3" />
+      <audio ref={audioRef} src="/Punjabsong.mp3" />
 
       {/* Music Player Popup */}
       {showPlayer && (
