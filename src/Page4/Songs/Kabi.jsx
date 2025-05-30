@@ -144,12 +144,12 @@ export default function MusicPlayer() {
             <div className="flex flex-col items-center">
               {/* Album Art */}
               <div className="rounded-2xl bg-gradient-to-br from-blue-300 to-blue-500  w-48 h-48 flex items-center justify-center mb-6">
-               <img src="/anjumbhai.jpg" alt="" />
+               <img src="/kabini.jpg" alt="" />
               </div>
 
               {/* Song Info */}
-              <h2 className="text-white text-xl font-medium">Anjum</h2>
-              <p className="text-gray-400 text-sm mb-6">Sample Audio</p>
+              <h2 className="text-white text-xl font-medium">Kabi ni</h2>
+              <p className="text-gray-400 text-sm mb-6">JANI</p>
 
               {/* Waveform Visualization */}
               <div className="w-full h-10 mb-4 flex items-center justify-between">
